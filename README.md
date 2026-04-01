@@ -304,31 +304,6 @@ os.environ["TF_CUDNN_DETERMINISTIC"] = "1"
 
 Add these lines before the TensorFlow import if exact reproducibility is required (may reduce training speed).
 
----
 
-## Citation
 
-If you use this code in your research, please cite:
 
-```bibtex
-@misc{brain_tumor_ensemble_2025,
-  title   = {Brain Tumor Detection via Stacked Ensemble Learning with Grad-CAM++ Explainability},
-  author  = {Your Name},
-  year    = {2025},
-  url     = {https://github.com/<your-username>/brain-tumor-detection}
-}
-```
-
----
-
-## License
-
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
-
----
-
-## Acknowledgments
-
-- [Kaggle Brain Tumor Detection Dataset](https://www.kaggle.com/datasets/ahmedhamada0/brain-tumor-detection) by Ahmed Hamada
-- Pre-trained weights from [ImageNet](https://www.image-net.org/) via TensorFlow/Keras
-- [LightGBM](https://github.com/microsoft/LightGBM), [Optuna](https://optuna.org/), [SHAP](https://github.com/shap/shap)
