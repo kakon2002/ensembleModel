@@ -1,0 +1,43 @@
+# Outputs (generated at runtime)
+outputs/
+
+# Data
+*.zip
+tumor_data/
+data/
+Brain_Tumor_Detection/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.eggs/
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+.env/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter / Colab
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# TensorFlow / model files
+*.h5
+*.hdf5
+*.pb
+saved_model/
+checkpoints/
